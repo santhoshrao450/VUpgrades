@@ -1,0 +1,60 @@
+1.Maintenance Mode -Primary (https://*.*.*.*:8443/setup/settings)
+
+2.ssh -p 122 admin@adm**** 
+
+3. ghe-repl-stop  
+
+
+
+
+intel----Screenshot
+
+
+
+
+4.ssh -p 122 admin@adm*****
+
+
+
+
+5.curl -L -O https://github-enterprise.s3.amazonaws.com/esx/updates/github-enterprise-esx-2.8.8.pkg --proxy bcproxy.****.com:8080 --proxy-user s****:X\$0\*MwF\%\+yD\*\&ZPNr -k
+
+
+  
+
+             
+
+6.ghe-upgrade github-enterprise-esx-2.8.8.pkg
+
+
+7.cat /etc/github/enterprise-release
+
+
+7.https://*.*888:8443/setup/   ()
+
+
+
+*.Make it accessiable to users
+
+
+
+           //////upgrading replica////
+
+
+
+
+
+
+1.ssh -p 122 admin@ad**2
+
+
+
+
+2.curl -L -O https://github-enterprise.s3.amazonaws.com/esx/updates/github-enterprise-esx-2.8.8.pkg --proxy bcproxy.***.com:8080 --proxy-user s***:X\$0\*MwF\%\+yD\*\&ZPNr -k
+
+3.ghe-upgrade github-enterprise-esx-2.8.8.pkg
+
+4.cat /etc/github/enterprise-release
+
+
+5.ghe-repl-status   ===>OK
