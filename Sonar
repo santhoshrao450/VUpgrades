@@ -1,0 +1,18 @@
+
+Intel Team—Take a vm backup snapshot
+Oracle Team –Take a Snapshot of Sonar Qube oracle database 
+
+
+1.Download and unzip the new SQ distribution in D:\Sonara_Qube\sonarqube-$v (admjkn601)
+2. Install the plugins compatible with version of Sonar qube.
+     a. Sonar-build-breaker –plugin-
+     b. Sonar-java –plugin-
+     c. Sonar-ldap plugin-
+3. Update the contents of ‘sonar.properties’ and ‘wrapper.properties’
+4. Stop the old SQ
+5.Start new SQ
+6. Browse  http://****.com:9000/setup and follow setup instructions
+
+Restoring from a failed upgrade
+
+Stop the new SQ and restart old SQ
